@@ -28,9 +28,15 @@ class QuizScreen(val quiz: Quiz) : Screen(Component.literal("单词测试")) {
                 Component.literal(option)
             ) {
                 if (option == quiz.correct) {
-                    println("答对了: $option")
+//                    println("答对了: $option")
+                    quiz.player.sendSystemMessage(
+                        Component.literal("答§a对§f了: §e$option§f!!")
+                    )
                 } else {
-                    println("答错了: $option, 正确答案: ${quiz.correct}")
+//                    println("答错了: $option, 正确答案: ${quiz.correct}")
+                    quiz.player.sendSystemMessage(
+                        Component.literal("答§c错§f了: §6$option§f, §a正确§f答案: §9${quiz.correct}§f!!")
+                    )
                 }
                 minecraft?.setScreen(null) // 关闭界面
             }.bounds(50, currentY, buttonWidth, buttonHeight).build())
