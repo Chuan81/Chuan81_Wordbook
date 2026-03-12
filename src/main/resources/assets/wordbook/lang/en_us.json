@@ -1,0 +1,13 @@
+{
+  "itemGroup.wordbook": "Example Mod Tab",
+  "block.wordbook.example_block": "Example Block",
+  "item.wordbook.example_item": "Example Item",
+
+  "wordbook.configuration.title": "Chuan81 Wordbook Configs",
+  "wordbook.configuration.section.wordbook.common.toml": "Chuan81 Wordbook Configs",
+  "wordbook.configuration.section.wordbook.common.toml.title": "Chuan81 Wordbook Configs",
+  "wordbook.configuration.items": "Item List",
+  "wordbook.configuration.logDirtBlock": "Log Dirt Block",
+  "wordbook.configuration.magicNumberIntroduction": "Magic Number Text",
+  "wordbook.configuration.magicNumber": "Magic Number"
+}
